@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Love me</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            #ques{
+                position: absolute;
+                left: 220px;
+                top: 175px;
+                width: auto;
+                height: 210px;
+            }
+            #ans_yes{
+                position: absolute;
+                left: 285px;
+                top: 235px;
+                width: 210px;
+                height: 210px;
+            }
+            #ans_no{
+                position: absolute;
+                left: 360px;
+                top: 235px;
+                width: 210px;
+                height: 210px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1 id="ques">Do you love me ?</h1>
+        <div id="ans_yes">
+            <input type="button" value="Yes" onclick="yes()"/>
+        </div>
+        <div id="ans_no">
+            <input type="button" value="No" onmouseover="love()"/>
+        </div>
+        <script src="js/love.js" async defer></script>
+    </body>
+</html>
