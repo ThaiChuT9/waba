@@ -72,7 +72,24 @@
     margin-bottom: 10px;
     text-decoration: none;
 }
+.social-links i {
+    color: black;
+}
 .social-links .social-text {
     color: #000000;
     margin-left: 10px;
+}
+.form-select,
+.form-control {
+    background-color: transparent;
+    box-shadow: none;
+    transition: border-color 0.3s; /* Thêm chuyển đổi mượt mà */
+}
+.form-select:focus,
+.form-control:focus {
+    border-color: black; /* Thay đổi viền thành màu đen khi focus */
+    box-shadow: none; /* Loại bỏ bóng của Bootstrap */
+}
+.invalid {
+    border-color: red !important;
 }
