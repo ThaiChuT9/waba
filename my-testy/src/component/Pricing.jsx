@@ -20,7 +20,7 @@ const Pricing = () => {
         "Monthly Status Reports"
     ]
   return (
-    <div className="md:px-14 max-w-s mx-auto py-10 ">
+    <div className="md:px-14 max-w-s mx-auto py-10 bg-gradient-to-br from-blue-900 to-blue-300">
         {/* Pricing card */}
         <div className="grid sm: grid-cols-1 lg:grid-cols-3 gap-10 md:w-11/12 mx-auto">
             {
