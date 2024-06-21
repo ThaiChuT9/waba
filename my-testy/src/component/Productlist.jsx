@@ -28,11 +28,11 @@ const Productlist = () => {
   );
   return (
     <div className="md:px-28 max-w-s mx-auto py-10">
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mx-auto">
         {ProductName.map((item, index) => (
           <div
             key={index}
-            className="bg-white border border-gray-200 rounded-lg overflow-hidden relative mx-5 flex flex-col justify-between"
+            className="bg-white border border-gray-200 rounded-lg overflow-hidden relative flex flex-col justify-between"
           >
             {(item.name.toLowerCase().includes("sale") ||
               item.name.toLowerCase().includes("special")) && (
@@ -40,11 +40,12 @@ const Productlist = () => {
                 Sale
               </span>
             )}
-            <div className="bg-gray-200 h-48 flex items-center justify-center">
+            <div className="bg-gray-200 h-48 mb-3 flex items-center justify-center">
               {/* Placeholder for product image */}
               <span className="text-gray-500 text-4xl">Image</span>
             </div>
-            <div className="p-4">
+            <div className="p-4 flex-grow flex flex-col justify-between">
+              <div>
               <h2 className="text-lg font-bold mb-2 text-center">
                 {item.name}
               </h2>
@@ -73,6 +74,7 @@ const Productlist = () => {
                   </>
                 )}
               </p>
+              </div>
               <button className="block mx-auto my-4 px-6 py-2 border border-black hover:bg-black hover:text-white ">
                 {item.name.toLowerCase().includes("fancy")
                   ? "View Options"
