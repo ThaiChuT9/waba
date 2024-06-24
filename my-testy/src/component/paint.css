@@ -1,0 +1,56 @@
+.toolbar {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+
+.toolbar-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toolbar-items {
+    display: flex;
+    gap: 10px;
+}
+
+.toolbar-section-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.brush-size,
+.color-square {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.brush-size {
+  border-radius: 50%;
+  background-color: black;
+}
+
+.brush-size-inner {
+  border-radius: 50%;
+  background-color: white;
+}
+
+button.erase-all {
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+.color-square {
+  cursor: pointer;
+}
+
+canvas {
+  border: 1px solid black;
+  width: 100%;
+}
