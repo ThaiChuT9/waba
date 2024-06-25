@@ -6,13 +6,17 @@ import Paint from './component/paint';
 import {BrowseRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
-  <Router>
-    <Switch>
-      <Route exact path="/" component={Productlist}/>
-      <Route path="/pricing" component={Pricing}/>
-      <Route path="/paint" component={Paint}/>
-    </Switch>
-  </Router>
+  return (
+    <div className="App">
+      <Router>
+        <Switch>
+          <Route path="/pricing" component={Pricing} />
+          <Route path="/productlist" component={Productlist} />
+          <Route path="/paint" component={Paint} />
+        </Switch>
+      </Router>
+    </div>
+  );
 }
 
 export default App;

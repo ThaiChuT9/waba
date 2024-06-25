@@ -1,6 +1,6 @@
 import React from 'react'
-import { CheckIcon } from '@heroicons/vue/24/solid'
-import { XMarkIcon } from '@heroicons/vue/24/solid'
+import { CheckIcon } from '@heroicons/react/24/solid'
+import { XMarkIcon } from '@heroicons/react/24/solid'
 
 const Pricing = () => {
     const packages = [
