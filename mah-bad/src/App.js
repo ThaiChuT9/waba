@@ -27,6 +27,8 @@ function App() {
             <Route path="paint" element={<Paint />} />
           </Route>
         </Routes>
+      </div>
+      <div className='mt-64'>
         <Footer />
       </div>
     </Router>

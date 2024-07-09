@@ -7,7 +7,7 @@ import youtubeLogo from '../assets/youtube.svg';
 
 const footer = () => {
   return (
-    <footer className="mt-5 bg-gray-800 text-white">
+    <footer className="mt-5 bg-orange-100 ">
     <div className="container mx-auto">
       <div className="flex flex-col md:flex-row py-5">
         <div className="md:w-1/3 flex flex-col items-end justify-center text-right md:pr-3">
@@ -20,7 +20,7 @@ const footer = () => {
             <div className="flex">
               <input
                 type="email"
-                className="form-input w-full text-gray-900 uppercase border-none"
+                className="form-input w-full text-gray-900 uppercase border-none pl-2"
                 placeholder="Your email address"
                 aria-label="Email Address"
               />

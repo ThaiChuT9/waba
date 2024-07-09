@@ -128,8 +128,8 @@ const Contactus = () => {
         <h1 className="text-4xl font-bold">INQUIRES</h1>
         <p className="text-xl mt-4">For any inquiries, please choose from any of the following options.</p>
       </div>
-
-      <div className="border p-4 rounded-md mt-6">
+      {/* Submission */}
+      <div className="border p-4 rounded-md mt-6 max-w-screen-md mx-auto bg-orange-100">
         <div className="mb-4">
           <div className="flex items-center">
             <div className={`flex-1 text-center ${step === 1 ? 'font-bold' : ''}`}>1. Inquiries</div>
